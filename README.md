@@ -13,7 +13,7 @@ Inline macros written in python in comments.
  1. The content added to result will be added here.
 
  1. End the output section with the comment 
-``//jlmacro --end`
+``//jlmacro --end``
 
  1. Call jlmacro on the source file and the output sections will be updated with the results of the input sections.
 ``python3 jlmacro.py ../project/src/test.cpp``
